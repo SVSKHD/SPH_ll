@@ -150,7 +150,7 @@ const loginWithGmail = () => {
 <style scoped>
 /* Glassmorphism theme for the calendar matching the app */
 :deep(.sph-calendar) {
-  background: rgba(40, 20, 70, 0.4) !important;
+  background: var(--sph-light);
   backdrop-filter: blur(20px) saturate(150%);
   -webkit-backdrop-filter: blur(20px) saturate(150%);
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -160,14 +160,14 @@ const loginWithGmail = () => {
 }
 
 :deep(.sph-calendar .q-date__header) {
-  background: var(--default-bg) !important;
+  background: var(--sph-light) !important;
   color: white !important;
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
 }
 
 :deep(.sph-calendar .q-date__header-link.q-date__header-link--active) {
-  color: var(--sph-accent) !important;
+  color: var(--sph-light) !important;
   opacity: 1 !important;
 }
 
@@ -176,16 +176,16 @@ const loginWithGmail = () => {
 }
 
 :deep(.sph-calendar .bg-primary) {
-  background-color: var(--sph-accent) !important;
+  background-color: var(--sph-light) !important;
 }
 
 :deep(.sph-calendar .text-primary) {
-  color: var(--sph-accent) !important;
+  color: var(--sph-light) !important;
 }
 
 /* Make sure days that are NOT selected but hovered get the accent color lightly */
 :deep(.sph-calendar .q-date__calendar-item button:hover:not(.bg-primary)) {
-  background: rgba(255, 63, 127, 0.2) !important;
+  background: var(--sph-light) !important;
 }
 
 .row.items-center.justify-end {
