@@ -4,9 +4,13 @@
     <SphHeader/>
 
     <SphPageContainer>
-        <div class="q-pa-xl rounded-xl">
-      <router-view />
-        </div>
+      <div class="layout-card-wrapper q-pa-md">
+       
+            <div class="q-pa-lg">
+              <router-view />
+            </div>
+
+      </div>
     </SphPageContainer>
 
     <SphFooter />

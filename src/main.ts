@@ -9,9 +9,12 @@ import 'quasar/src/css/index.sass'
 // Custom Sph Components
 import SphComponents from './components/common';
 
+import quasarIconSet from 'quasar/icon-set/eva-icons'
+
 const spl = createApp(App)
 spl
     .use(Quasar, {
+        iconSet: quasarIconSet,
         plugins: {
             Notify,
         },

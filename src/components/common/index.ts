@@ -9,6 +9,7 @@ import SphTabs from './SphTabs.vue';
 import SphToolbar from './SphToolbar.vue';
 import SphToolbarTitle from './SphToolbarTitle.vue';
 import SphAvatar from './SphAvatar.vue';
+import SphInput from './SphInput.vue';
 
 // Other Sph Components
 import SphTab from '../SphTab.vue';
@@ -26,6 +27,7 @@ export default {
         app.component('SphToolbar', SphToolbar);
         app.component('SphToolbarTitle', SphToolbarTitle);
         app.component('SphAvatar', SphAvatar);
+        app.component('SphInput', SphInput);
 
         // Register Other Sph Components
         app.component('SphTab', SphTab);
